@@ -1,5 +1,10 @@
 import { httpServer } from "./app.js";
 import { connectDB } from "../src/database/data.base.js";
+import dotenv from "dotenv";
+
+dotenv.config({
+    path:"./.env"
+})
 
 
 const StartServer = ()=>{

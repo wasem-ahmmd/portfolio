@@ -7,17 +7,17 @@ import { ErrorMiddle } from "../src/middlewares/error.middle.js"
 const app = express();
 
 //.........client side........
-app.set("view engine" , "ejs")
-app.get("/",(req,res)=>{
-  res.render("index")
-})
-app.get("/home",(req,res)=>{
-  res.render("home")
-})
+// app.set("view engine" , "ejs")
+// app.get("/",(req,res)=>{
+//   res.render("index")
+// })
+// app.get("/home",(req,res)=>{
+//   res.render("home")
+// })
 
-app.post("/api/v1/login",(req,res)=>{
-  res.redirect("/home")
-})
+// app.post("/api/v1/login",(req,res)=>{
+//   res.redirect("/home")
+// })
 
 
 
